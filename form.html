@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online form</title>
+  </head>
+  <body>
+    <form name="myform" method="post" onsubmit="return validate()" action="facebook.html">
+  <img src="header.png">
+  <p>
+    By proceeding,you agree to <a href="">Jazz's Terms</a>,which includes letting Facebook request and recieve your phone number <a href="">Change Settings</a> 
+  </p>
+  <nav>
+    <li>English(US)</li>
+    <li>Espanol</li>
+    <a href="" class="a">More...</a>
+    </nav>
+   <input name="name" type="text" required>
+  <input name="password" type="password" required>
+  <br><br>
+  <a href="facebook.html"><button class="login" onclick="validate()">Log In</button></a>
+    <br><br>
+  <a href="" class="password">Forgot Password?</a>
+  <p class="or">--------------------------OR-------------------------</p>
+    <a href="facebook.html"><button type="button" class="new">Create New Facebook Account</button></a>
+    </form>
+    <script>
+    function  validate(){
+      var el = document.myform..name.value;
+      var l = document.myform.password.value;
+      if(el==null || el==""){
+        alert("name cant be empty");
+        return false;
+      }else if(l.length < 6){
+        alert("password cant be less than 6digits");
+        return false;
+      }
+    }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav,li,h4,p { 
+  display: flex;
+  color: white;
+  background-color: black;
+  width: 100%;
+  height: 10%;
+  
+}
+.add {
+  display: flex;
+  margin-left: 3%;
+  
+}
+p {
+  border: 2px solid white;
+  text-align: center;
+  align-items: center;
+  height: 2%;
+  padding: 1vh;
+  margin: 6%;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+.list {
+  height: 3.5vh;
+  width: 3.5vh;
+  margin-left: 7%;
+  margin-top: 10%;
+}
+.list1 {
+  height: 3.5vh;
+  width: 3.5vh;
+  margin-left: 13%;
+  margin-top: 10%;
+}
+.list2 {
+  height: 3.5vh;
+  width: 3.5vh;
+  margin-left: 13%;
+  margin-top: 10%;
+}
+.list3 {
+  height: 3.5vh;
+  width: 3.5vh;
+  margin-left: 13%;
+  margin-top: 10%;
+}
+.list4 {
+  height: 3.5vh;
+  width: 3.5vh;
+  margin-left: 13%;
+  margin-top: 10%;
+}
+h2 {
+  margin-left: 2%;
+}
+.ad {
+  height: 3.5vh;
+  width: 3.5vh;
+  margin-left: 60%;
+}
+.bg {
+  background-image: url('bg.png');
+top: 0;
+position: fixed;
+width: 100%;
+}
+img:hover {
+  border-bottom: 4px solid blue;
+  background-color: #365bff;
+}
+.req {
+  display: flex;
+  
+}
+h5 {
+  background-color: #dddddd;
+  border-radius: 40px;
+  padding: 0.8rem;
+  margin-left: 3%;
+}
+.lef {
+  margin-left: 3%;
+}
+hr {
+  margin: 3% 3% 0 3%;
+}
+.h3 {
+  margin: 3% 3% 0 3%;
+}
+.img {
+  height: 10vh;
+  width: 20vw;
+  border-radius: 100px;
+  float: left;
+  margin: 5% 0 0 2%;
+}
+.friend {
+  display: flex;
+}
+  #ade {
+    background-color: blue;
+    border-radius: 10px;
+    text-align: center;
+  }
+  #remove {
+    background-color: #bcbcbc;
+    color: black;
+    margin-left: 2%;
+    border-radius: 10px;
+    text-align: center;
+  }
+  sub {
+    margin-left: 5%;
+  }
+  .name {
+    margin-top: 2%;
+  }
+  .se {
+    margin-left: 63%;
+  }

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>comment section</title>
+  </head>
+  <body>
+    <div id="container">
+<input id="input" type="text" placeholder="write a public comment">
+<button id="submit" type="submit">✓</button>
+</div>
+<style>
+#input {
+  width: 80vw;
+  height: 5vh;
+  outline: none;
+  border-radius: 50px;
+  margin-top: 170%;
+}
+#submit {
+  background-color: white;
+  color: blue;
+  font-size: 2rem;
+  border: 2px solid white;
+  outline: none;
+}
+body {
+  background-image: url('body.png');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+</style>
+<script>
+submit = document.getElementById('submit');
+container = document.getElementById('container');
+input = document.getElementById('input');
+submit.addEventListener('click', function(){
+  var paragraph = document.createElement('p');
+  paragraph.innerText = input.value;
+  container.appendChild(paragraph);
+  input.value = "";
+    paragraph.style.backgroundColor
+  = "#c8cccd";
+  paragraph.style.padding
+  = "1.5rem";
+  paragraph.style.width = "20%";
+  paragraph.style.borderRadius = "0 20px 20px 20px";
+})
+</script>
+  </body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="friends.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>friends page</title>
+  </head>
+  <body>
+    <nav>
+      <li><h4>Data Mode</h4></li>
+      <li><p onclick="data()">Buy Data</p></li>
+      <li><p onclick="text()">Text Only</p></li>
+    </nav>
+      <div class="li">
+    <a href="facebook.html"><img class="list" src="home.png"></a>
+    <a href="friends.html"><img class="list1" src="friends.png"></a>
+    <a href="store.html"><img class="list2" src="store.png"></a>
+     <a href="bell.html"><img class="list3" src="bell.png"></a>
+    <a href="menu.html"><img class="list4" src="menu.png"></a>
+    </div>
+       <div class="add">
+    <h2>Friends</h2>
+    <a class="se" href="search.html"><img class="ad" src="search.png"></a>
+     </div>
+    <div class="req">
+    <h5>Requests</h5>
+    <h5 class="lef">Your Friends</h5>
+    </div>
+    <hr/>
+    <h3 class="h3">People You May Know</h3>
+    <img src="1.jpg" class="img">
+    <h3 class="name">Munir Ahmad</h3>
+    <sub>84mutual friends</sub>
+    <div class="friend">
+      <p id="ade" onclick="add()">Add Friend</p>
+      <p id="remove" onclick="remove()">Remove</p>
+      </div>
+    <br><br>
+        <img src="2.jpg" class="img">
+    <h3 class="name">M.Nauman</h3>
+    <sub>84mutual friends</sub>
+    <div class="friend">
+      <p id="ade" onclick="add()">Add Friend</p>
+      <p id="remove" onclick="remove()">Remove</p>
+      </div>
+    <br><br>
+        <img src="3.jpg" class="img">
+    <h3 class="name">Nauman Munir</h3>
+    <sub>84mutual friends</sub>
+    <div class="friend">
+      <p id="ade" onclick="add()">Add Friend</p>
+      <p id="remove" onclick="remove()">Remove</p>
+      </div>
+    <br><br>
+        <img src="4.jpg" class="img">
+    <h3 class="name">M.Nauman</h3>
+    <sub>84mutual friends</sub>
+    <div class="friend">
+      <p id="ade" onclick="add()">Add Friend</p>
+      <p id="remove" onclick="remove()">Remove</p>
+      </div>
+    <br><br>
+        <img src="5.jpg" class="img">
+    <h3 class="name">M.Shahzaib</h3>
+    <sub>84mutual friends</sub>
+    <div class="friend">
+      <p id="ade" onclick="add()">Add Friend</p>
+      <p id="remove" onclick="remove()">Remove</p>
+      </div>
+    <br><br>
+        <img src="6.jpg" class="img">
+    <h3 class="name">M.Salman</h3>
+    <sub>84mutual friends</sub>
+    <div class="friend">
+      <p id="ade" onclick="add()">Add Friend</p>
+      <p id="remove" onclick="remove()">Remove</p>
+      </div>
+       <script>
+    function data() {
+      alert("No more data packages")  }
+      function text() {
+        alert("you are currently on text only mode")
+      }
+      el = document.getElementById('ade');
+      l = document.getElementById('remove');
+    function add(){
+               el.innerHTML = 'cancel';
+               el.style.width = '500vw';
+               el.style.backgroundColor = '#d6d6d6';
+               el.style.alignItems = 'center';
+               l.style.height = "0.01px";
+               l.style.width = "0.01px";
+               l.style.backgroundColor = "white";
+               l.innerHTML = '';
+      }
+   function remove(){
+               l.innerHTML = '';
+               l.style.height = '0.01px';
+               l.style.width = '0.01px';
+               el.style.display = 'none';
+               l.style.backgroundColor = "white";
+   }
+  </script>
+  </body>
+  </html>
