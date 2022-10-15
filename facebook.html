@@ -55,9 +55,9 @@
         <img class="big" src="1.jpg">
         <br><br>
         <div class="comment">
-          <img class="li" src="like.png">
-          <a href="comment.html"><img class="c" src="comment.png"></a>
-          <img class="co" src="share.png">
+          <img class="li" onclick="audio.play()" src="like.png">
+          <a href="comment.html"><img class="c" onclick="audio.play()"  src="comment.png"></a>
+          <img class="co" onclick="audio.play()"  src="share.png">
         </div>
         <br><br>
          <div class="sm">
@@ -69,9 +69,9 @@
         <img class="big" src="2.jpg">
         <br><br>
            <div class="comment">
-          <img src="like.png">
-          <a href="comment.html"><img class="c" src="comment.png"></a>
-          <img class="co" src="share.png">
+          <img src="like.png" onclick="audio.play()" >
+          <a href="comment.html"><img class="c"  onclick="audio.play()" src="comment.png"></a>
+          <img class="co" onclick="audio.play()" src="share.png">
         </div>
         <br><br>
          <div class="sm">
@@ -83,9 +83,9 @@
         <img class="big" src="3.jpg">
         <br><br>
            <div class="comment">
-          <img src="like.png">
-          <a href="comment.html"><img class="c" src="comment.png"></a>
-          <img class="co" src="share.png">
+          <img src="like.png" onclick="audio.play()" >
+          <a href="comment.html"><img class="c" onclick="audio.play()"  src="comment.png"></a>
+          <img class="co" onclick="audio.play()" src="share.png">
         </div>
         <br><br>
          <div class="sm">
@@ -97,9 +97,9 @@
         <img class="big" src="4.jpg">
         <br><br>
            <div class="comment">
-          <img src="like.png">
-          <a href="comment.html"><img class="c" src="comment.png"></a>
-          <img class="co" src="share.png">
+          <img src="like.png" onclick="audio.play()" >
+          <a href="comment.html"><img class="c" onclick="audio.play()"  src="comment.png"></a>
+          <img class="co" onclick="audio.play()"  src="share.png">
         </div>
         <br><br>
                 <div class="sm">
@@ -111,9 +111,9 @@
         <img class="big" src="5.jpg">
         <br><br>
            <div class="comment">
-          <img src="like.png">
-          <a href="comment.html"><img class="c" src="comment.png"></a>
-          <img class="co" src="share.png">
+          <img src="like.png" onclick="audio.play()" >
+          <a href="comment.html"><img class="c" onclick="audio.play()"  src="comment.png"></a>
+          <img class="co" onclick="audio.play()" src="share.png">
         </div>
         <br><br>
          <div class="sm">
@@ -124,9 +124,9 @@
         <h6>my beautiful picture🥰</h6>
         <img class="big" src="6.jpg">
            <div class="comment">
-          <img src="like.png">
-          <a href="comment.html"><img class="c" src="comment.png"></a>
-          <img class="co" src="share.png">
+          <img src="like.png" onclick="audio.play()" >
+          <a href="comment.html"><img class="c" onclick="audio.play()"  src="comment.png"></a>
+          <img class="co" onclick="audio.play()"  src="share.png">
         </div>
     <script>
     function data() {
@@ -135,6 +135,8 @@
       function text() {
         alert("you are currently on text only mode");
       };
+        const audio = new Audio();
+         audio.src = "audio.mp3";
     </script>
   </body>
 </html>
